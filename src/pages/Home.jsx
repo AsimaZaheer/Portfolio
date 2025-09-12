@@ -83,7 +83,7 @@ const Home = () => {
             {/* Social Media Icons */}
             <div className="mt-8 flex justify-center space-x-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/AsimaZaheer"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-pink-500 transition duration-300"
@@ -91,7 +91,7 @@ const Home = () => {
                 <i className="fab fa-github fa-2x"></i>
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/asima-zaheer-358266367"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-pink-500 transition duration-300"
@@ -115,7 +115,7 @@ const Home = () => {
                 <i className="fab fa-facebook fa-2x"></i>
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:asimazaheer2006@gmail.com"
                 className="text-gray-600 hover:text-pink-500 transition duration-300"
               >
                 <i className="fas fa-envelope fa-2x"></i>

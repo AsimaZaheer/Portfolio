@@ -57,7 +57,7 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4 text-gray-800">Connect With Me</h3>
             <div className="flex space-x-4">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/AsimaZaheer"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-pink-500 transition duration-300"
@@ -65,7 +65,7 @@ const Footer = () => {
                 <i className="fab fa-github fa-lg"></i>
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://www.linkedin.com/in/asima-zaheer-358266367"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-600 hover:text-pink-500 transition duration-300"

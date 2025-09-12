@@ -135,7 +135,7 @@ const Contact = () => {
               <h3 className="text-xl font-bold mb-4 text-pink-600">Connect With Me</h3>
               <div className="flex space-x-4">
                 <a
-                  href="https://linkedin.com/in/yourusername"
+                  href="https://www.linkedin.com/in/asima-zaheer-358266367"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 hover:text-pink-500 transition duration-300"
@@ -143,7 +143,7 @@ const Contact = () => {
                   <i className="fab fa-linkedin text-2xl"></i>
                 </a>
                 <a
-                  href="https://github.com/yourusername"
+                  href="https://github.com/AsimaZaheer"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gray-700 hover:text-pink-500 transition duration-300"
