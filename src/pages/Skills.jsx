@@ -95,10 +95,10 @@ const Skills = () => {
       </section>
 
       {/* Certifications */}
-      <section className="py-12 px-4 max-w-4xl mx-auto">
+      {/* <section className="py-12 px-4 max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold mb-8 text-center text-pink-600">Certifications</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-          {/* Udemy Certificate */}
+          
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-start">
             <div className="w-16 h-16 flex items-center justify-center mr-4">
               <i className="fab fa-udemy text-4xl text-pink-500"></i>
@@ -119,7 +119,7 @@ const Skills = () => {
             </div>
           </div>
 
-          {/* Coursera Certificate */}
+          
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex items-start">
             <div className="w-16 h-16 flex items-center justify-center mr-4">
               <i className="fas fa-graduation-cap text-4xl text-blue-500"></i>
@@ -140,7 +140,7 @@ const Skills = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Call-to-Action */}
       <section className="py-16 px-4 text-center bg-white rounded-lg mx-4 my-8 shadow-sm">

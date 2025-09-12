@@ -57,15 +57,15 @@ const About = () => {
           <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
             <h3 className="text-xl font-semibold flex items-center mb-2">
               <i className="fas fa-graduation-cap text-pink-500 mr-3"></i>
-              BS Computer Science – XYZ University (2021–2025)
+              BS Software Engineering – HITEC University Taxila (2024–2028)
             </h3>
           </div>
-          <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+          {/* <div className="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
             <h3 className="text-xl font-semibold flex items-center mb-2">
               <i className="fas fa-certificate text-pink-500 mr-3"></i>
               Certificates – React JS Bootcamp, Frontend Mentor Challenges
             </h3>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -75,11 +75,7 @@ const About = () => {
         <div className="space-y-4">
           <p className="text-lg text-gray-700">
             <i className="fas fa-briefcase text-pink-500 mr-2"></i>
-            Interned as a Frontend Developer at ABC Software House.
-          </p>
-          <p className="text-lg text-gray-700">
-            <i className="fas fa-laptop-code text-pink-500 mr-2"></i>
-            Worked on freelance projects including e-commerce websites and portfolios.
+            Interned as a Frontend Web Developer at Glaxit Software House.
           </p>
         </div>
       </section>
