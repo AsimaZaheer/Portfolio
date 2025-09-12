@@ -34,7 +34,7 @@ const Sidebar = () => {
             href="tel:+1234567890"
             className="text-gray-600 hover:text-pink-500 transition duration-300"
           >
-            +123 456 7890
+            +92 328 5284895
           </a>
         </div>
         <div className="flex items-center">
