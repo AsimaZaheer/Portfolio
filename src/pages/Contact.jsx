@@ -112,16 +112,16 @@ const Contact = () => {
                   href="mailto:your.email@example.com"
                   className="text-gray-700 hover:text-pink-500 transition duration-300"
                 >
-                  your.email@example.com
+                  asimazaheer2006@gmail.com
                 </a>
               </div>
               <div className="flex items-center">
                 <i className="fas fa-phone text-pink-500 mr-3"></i>
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+923285284895"
                   className="text-gray-700 hover:text-pink-500 transition duration-300"
                 >
-                  +123 456 7890
+                  +92 328 5284895
                 </a>
               </div>
               <div className="flex items-center">

@@ -31,7 +31,7 @@ const Sidebar = () => {
         <div className="flex items-center mb-3">
           <i className="fas fa-phone text-pink-500 mr-3"></i>
           <a
-            href="tel:+1234567890"
+            href="tel:+923285284895"
             className="text-gray-600 hover:text-pink-500 transition duration-300"
           >
             +92 328 5284895
