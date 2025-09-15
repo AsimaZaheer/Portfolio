@@ -5,73 +5,63 @@ const Resume = () => {
   // Summary
   const summary = (
     <p className="text-gray-700 mb-6">
-      I’m a passionate <strong>Frontend Developer</strong> with expertise in building responsive and interactive web applications using <strong>React.js</strong>, <strong>Tailwind CSS</strong>, and modern <strong>JavaScript</strong>. I love turning ideas into reality through clean, efficient code and user-friendly designs.
+      BS Software Engineering student from HITEC University aiming to join a collaborative development team.
+      Passionate about creating clean, efficient code with hands-on experience in Java, HTML/CSS, JavaScript, and C++.
     </p>
   );
 
   // Education
   const education = [
     {
-      degree: "BS in Computer Science",
-      institution: "HITEC University, Taxila",
-      period: "2021 – Present",
-      description: "Focused on web development, algorithms, and software engineering.",
-    },
-    {
-      degree: "Intermediate (Pre-Engineering)",
-      institution: "[Your College Name], Taxila",
-      period: "2019 – 2021",
-      description: "Completed with a strong foundation in mathematics and physics.",
+      degree: "BS in Software Engineering",
+      institution: "HITEC University Taxila",
+      period: "2024–2028",
+      description: "CGPA: 3.82 / 4.00",
     },
   ];
 
   // Experience
   const experience = [
     {
-      role: "Frontend Developer Intern",
-      company: "ABC Software House",
-      period: "Summer 2023",
+      role: "Web Developer Intern",
+      company: "GlaxIT",
+      period: "July 2025 – Present",
       description: [
-        "Developed responsive web pages using React.js and Tailwind CSS.",
-        "Collaborated with senior developers to implement new features.",
-        "Debugged and optimized existing code for better performance.",
-      ],
-    },
-    {
-      role: "Freelance Web Developer",
-      company: "Self-Employed",
-      period: "2022 – Present",
-      description: [
-        "Built and deployed multiple client projects, including e-commerce websites and portfolios.",
-        "Worked directly with clients to gather requirements and deliver solutions.",
-        "Used Git and GitHub for version control and collaboration.",
+        "Front-end development with HTML, CSS, JavaScript, React.",
+        "Worked on responsive UI and Git/GitHub collaboration.",
       ],
     },
   ];
 
   // Skills
   const skills = {
-    frontend: ["HTML5", "CSS3", "JavaScript (ES6+)", "React.js", "Tailwind CSS"],
-    tools: ["Git", "GitHub", "VS Code", "Figma", "Vite"],
-    softSkills: ["Problem Solving", "Teamwork", "Communication"],
+    languages: ["Java", "C++"],
+    webTechnologies: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
+    tools: ["NetBeans", "VS Code", "Dev C++", "Git", "GitHub", "Figma", "Vite"],
+    softSkills: ["Team Collaboration", "Problem-Solving", "Communication", "Time Management", "Critical Thinking"],
   };
 
   // Projects
   const projects = [
     {
-      name: "Adventure Awaits – Travel Website",
-      description: "Built with React, Tailwind, and LocalStorage for wishlist functionality.",
+      name: "ShopHub - E-commerce Website",
+      description: "Features: Product listings, modern UI components, login validation, dynamic product loading, and responsive grid layout.",
     },
     {
-      name: "ShopHub – E-commerce Website",
-      description: "React + Tailwind + Cart & Wishlist features.",
+      name: "Adventure Awaits - Travel Website",
+      description: "Features: Destination highlights, interactive sections, smooth scrolling, and fully responsive travel-themed design.",
+    },
+    {
+      name: "ArtSpark - Creative Art Sharing Site",
+      description: "Features: Featured artworks section, artist blog scroll, animated transitions, contact form with validation, and responsive gallery layout.",
     },
   ];
 
   // Certifications
   const certifications = [
-    { name: "React JS Bootcamp", provider: "Udemy", year: "2023" },
-    { name: "Frontend Development Specialization", provider: "Coursera", year: "2024" },
+    { name: "Graphic Designing", provider: "DigiSkills, Virtual University", year: "-" },
+    { name: "Freelancing", provider: "DigiSkills, Virtual University", year: "-" },
+    { name: "Communication Skills", provider: "DigiSkills, Virtual University", year: "-" },
   ];
 
   return (
@@ -94,7 +84,7 @@ const Resume = () => {
       {/* Main Resume Content (Two-Column Layout) */}
       <div className="max-w-5xl mx-auto px-4 py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-          {/* Left Column: Education & Experience */}
+          {/* Left Column: Education, Experience, and Certifications */}
           <div className="space-y-8">
             {/* Summary */}
             <section>
@@ -135,18 +125,39 @@ const Resume = () => {
                 ))}
               </div>
             </section>
+
+            {/* Certifications */}
+            <section>
+              <h2 className="text-2xl font-bold mb-6 text-pink-600">Certifications</h2>
+              <div className="space-y-4">
+                {certifications.map((cert, index) => (
+                  <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
+                    <div className="flex items-start">
+                      <div className="w-12 h-12 flex items-center justify-center mr-4">
+                        <i className="fas fa-graduation-cap text-2xl text-pink-500"></i>
+                      </div>
+                      <div>
+                        <h3 className="text-lg font-semibold mb-1">{cert.name}</h3>
+                        <p className="text-gray-600 mb-1">{cert.provider}</p>
+                        <p className="text-gray-500 text-sm">{cert.year}</p>
+                      </div>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </section>
           </div>
 
-          {/* Right Column: Skills, Projects, Certifications */}
+          {/* Right Column: Skills and Projects */}
           <div className="space-y-8">
             {/* Skills */}
             <section>
               <h2 className="text-2xl font-bold mb-6 text-pink-600">Skills</h2>
               <div className="space-y-6">
                 <div className="bg-white p-6 rounded-lg shadow-sm">
-                  <h3 className="text-lg font-semibold mb-3 text-pink-600">Frontend</h3>
+                  <h3 className="text-lg font-semibold mb-3 text-pink-600">Languages</h3>
                   <div className="flex flex-wrap gap-2">
-                    {skills.frontend.map((skill, index) => (
+                    {skills.languages.map((skill, index) => (
                       <span key={index} className="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm">
                         {skill}
                       </span>
@@ -154,7 +165,17 @@ const Resume = () => {
                   </div>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-sm">
-                  <h3 className="text-lg font-semibold mb-3 text-pink-600">Tools</h3>
+                  <h3 className="text-lg font-semibold mb-3 text-pink-600">Web Technologies</h3>
+                  <div className="flex flex-wrap gap-2">
+                    {skills.webTechnologies.map((tech, index) => (
+                      <span key={index} className="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm">
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+                <div className="bg-white p-6 rounded-lg shadow-sm">
+                  <h3 className="text-lg font-semibold mb-3 text-pink-600">Tools & Platforms</h3>
                   <div className="flex flex-wrap gap-2">
                     {skills.tools.map((tool, index) => (
                       <span key={index} className="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm">
@@ -184,31 +205,6 @@ const Resume = () => {
                   <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
                     <h3 className="text-lg font-semibold mb-2">{project.name}</h3>
                     <p className="text-gray-600">{project.description}</p>
-                  </div>
-                ))}
-              </div>
-            </section>
-
-            {/* Certifications */}
-            <section>
-              <h2 className="text-2xl font-bold mb-6 text-pink-600">Certifications</h2>
-              <div className="space-y-4">
-                {certifications.map((cert, index) => (
-                  <div key={index} className="bg-white p-6 rounded-lg shadow-sm">
-                    <div className="flex items-start">
-                      <div className="w-12 h-12 flex items-center justify-center mr-4">
-                        {cert.provider === "Udemy" ? (
-                          <i className="fab fa-udemy text-2xl text-pink-500"></i>
-                        ) : (
-                          <i className="fas fa-graduation-cap text-2xl text-pink-500"></i>
-                        )}
-                      </div>
-                      <div>
-                        <h3 className="text-lg font-semibold mb-1">{cert.name}</h3>
-                        <p className="text-gray-600 mb-1">{cert.provider}</p>
-                        <p className="text-gray-500 text-sm">{cert.year}</p>
-                      </div>
-                    </div>
                   </div>
                 ))}
               </div>
